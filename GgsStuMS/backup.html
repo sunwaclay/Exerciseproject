@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>backup</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				margin: 10px 10px;
+				padding: 10px 10px;
+				background-color: #00BFFF;
+			}
+			#box{
+				width: auto;
+				height: auto;
+				padding: 100px 100px;
+				margin: 100px 100px;
+				background-color: antiquewhite;
+				border-radius: 10px;
+				border: #0099FF solid 2px;
+				text-align: center;
+			}
+			img{
+				height: 90px;
+				width: auto;
+				padding: 10px 10px;
+				margin: 10px 10px;
+			}
+			.btn{background-color: #0099ff;color: #fff;width: 80px;height: 30px;margin: 10px 5px;cursor: pointer;text-align: center;border-radius: 3px;}
+		</style>
+		<script type="text/javascript">
+			function clickMe(){							
+							alert("备份成功！！");
+						}
+		</script>
+	</head>
+	<body>
+		<div id="box">
+			<div id="onbtn">
+				<img src="img/sync.png" >
+				<input class="btn" type="button" value="上传备份" onclick="clickMe()">
+			</div>
+		</div>
+		
+	</body>
+</html>
